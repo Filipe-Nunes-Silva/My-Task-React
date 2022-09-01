@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.container button{
+    border: 0;
+    background-color: #b23939;
+    color: #fff;
+    padding: 13px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container button:hover{
+    background-color: hsl(0, 46%, 35%);
+    transition: all ease 0.2s;
+}
+.areaAdd{
+    border: 1px solid #555;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.areaAdd .image{
+    margin-right: 5px;
+}
+.areaAdd input[type='text']{
+    border: 0;
+    background: transparent;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    flex: 1;
+}
